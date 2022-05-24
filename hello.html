@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="memoryy.css" rel="stylesheet">
+    <script defer src="testt.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+<h1></h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+    <p class = "questions">which sea borders mallorca?</p>
+    <input id = "textbox" type = "text" name = "question1">
+
+    <p class = "questions">What is the capital of Spain?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Barcelona"> Barcelona<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Madrid"> Madrid<br>
+
+    <p class = "questions">What is the name of the nap that they do in Spain after 12pm?</p>
+
+    <input type = "radio" id = "mc" name = "question3" value = "salsa"> Salsa<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Siesta"> Siesta<br>
+
+
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+</div>
+</body>
+</html>
